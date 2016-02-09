@@ -4,16 +4,17 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/grid-system.css">
-		<title>Ejercicio:Mi primer Layout</title>
+		<link rel="icon" href="favicon.ico">
+		<title>Grid System</title>
 	</head>
 	<body>
 		<header>
-			<div>
-				<div>
-					<div>
-						<img src="img/logo.png">
+			<div class="container">
+				<div class="encabezado" class="row">
+					<div class="col-2">
+						<img src="img/logo.png" class="logo">
 					</div>
-					<div>
+					<div class="col-10">
 						<ul>
 							<li>LIVE</li>
 							<li>SHOWS</li>
@@ -25,16 +26,257 @@
 						</ul>
 					</div>
 				</div>
-				<!-- Revisar si este texto se divide en dos div o que se debe hacer para darles un formato diferente y como agregar flecha -->
-				<div>Latest episodes More episodes 
-				</div>
-				<div>
-					<img src="img/dlc.jpg">
-					<img src="img/almanac.jpg">
-					<img src="img/onthegrid.jpg">
-					<img src="img/changelog.jpg">
-				</div>	
 			</div>
 		</header>
+		<section>
+			<div class="container">
+				<!-- Revisar si este texto se divide en dos div o que se debe hacer para darles un formato diferente y como agregar flecha -->
+				<div class="Link" class="row">
+					<div class="col-12">
+						<p class="TextoLink">Latest episodes <span class="TextoLinkBlue">More episodes</span></p>
+					</div>
+				</div>
+				<div class="LatesEpisodes" class="row">
+					<div class="col-12">
+						<div class="col-3">
+							<img src="img/dlc.jpg" class="ImgLE">
+							<p class="TImgLE">DLC 83</p>
+						</div>
+						<div class="col-3">
+							<img src="img/almanac.jpg" class="ImgLE">
+							<p class="TImgLE">Ihnatko Almanac 149</p>
+						</div>
+						<div class="col-3">
+							<img src="img/onthegrid.jpg" class="ImgLE">
+							<p class="TImgLE">On the grid 124</p>
+						</div>
+						<div class="col-3">
+							<img src="img/changelog.jpg" class="ImgLE">
+							<p class="TImgLE">Changelog 165</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-10">
+						<div>
+							<div class="col-2">
+								<img src="img/thumbs/amplified.jpg" class="Thumbs">
+								<p class="TextoThumbs">Amplified</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/back-to-work.jpg" class="Thumbs">
+								<p class="TextoThumbs">Back to work</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/the-big-show.jpg" class="Thumbs">
+								<p class="TextoThumbs">The big show</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/better-know.jpg" class="Thumbs">
+								<p class="TextoThumbs">Better Know</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/cash-corner.jpg" class="Thumbs">
+								<p class="TextoThumbs">Cash corner</p>
+							</div>
+						</div>
+						<!-- Menú del lado derecho, agregarlo y darle formato (las col se pueden dividir en n cantidad de rows) -->
+						<div class="col-2">
+						<p>jhcdaejkdki</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">
+						<div>
+							<div class="col-2">
+								<img src="img/thumbs/amplified.jpg" class="Thumbs">
+								<p class="TextoThumbs">Amplified</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/back-to-work.jpg" class="Thumbs">
+								<p class="TextoThumbs">Back to work</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/the-big-show.jpg" class="Thumbs">
+								<p class="TextoThumbs">The big show</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/better-know.jpg" class="Thumbs">
+								<p class="TextoThumbs">Better Know</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/cash-corner.jpg" class="Thumbs">
+								<p class="TextoThumbs">Cash corner</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">
+						<div>
+							<div class="col-2">
+								<img src="img/thumbs/amplified.jpg" class="Thumbs">
+								<p class="TextoThumbs">Amplified</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/back-to-work.jpg" class="Thumbs">
+								<p class="TextoThumbs">Back to work</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/the-big-show.jpg" class="Thumbs">
+								<p class="TextoThumbs">The big show</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/better-know.jpg" class="Thumbs">
+								<p class="TextoThumbs">Better Know</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/cash-corner.jpg" class="Thumbs">
+								<p class="TextoThumbs">Cash corner</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">
+						<div>
+							<div class="col-2">
+								<img src="img/thumbs/amplified.jpg" class="Thumbs">
+								<p class="TextoThumbs">Amplified</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/back-to-work.jpg" class="Thumbs">
+								<p class="TextoThumbs">Back to work</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/the-big-show.jpg" class="Thumbs">
+								<p class="TextoThumbs">The big show</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/better-know.jpg" class="Thumbs">
+								<p class="TextoThumbs">Better Know</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/cash-corner.jpg" class="Thumbs">
+								<p class="TextoThumbs">Cash corner</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">
+						<div>
+							<div class="col-2">
+								<img src="img/thumbs/amplified.jpg" class="Thumbs">
+								<p class="TextoThumbs">Amplified</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/back-to-work.jpg" class="Thumbs">
+								<p class="TextoThumbs">Back to work</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/the-big-show.jpg" class="Thumbs">
+								<p class="TextoThumbs">The big show</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/better-know.jpg" class="Thumbs">
+								<p class="TextoThumbs">Better Know</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/cash-corner.jpg" class="Thumbs">
+								<p class="TextoThumbs">Cash corner</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">
+						<div>
+							<div class="col-2">
+								<img src="img/thumbs/amplified.jpg" class="Thumbs">
+								<p class="TextoThumbs">Amplified</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/back-to-work.jpg" class="Thumbs">
+								<p class="TextoThumbs">Back to work</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/the-big-show.jpg" class="Thumbs">
+								<p class="TextoThumbs">The big show</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/better-know.jpg" class="Thumbs">
+								<p class="TextoThumbs">Better Know</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/cash-corner.jpg" class="Thumbs">
+								<p class="TextoThumbs">Cash corner</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">
+						<div>
+							<div class="col-2">
+								<img src="img/thumbs/amplified.jpg" class="Thumbs">
+								<p class="TextoThumbs">Amplified</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/back-to-work.jpg" class="Thumbs">
+								<p class="TextoThumbs">Back to work</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/the-big-show.jpg" class="Thumbs">
+								<p class="TextoThumbs">The big show</p>
+							</div>	
+							<div class="col-2">
+								<img src="img/thumbs/better-know.jpg" class="Thumbs">
+								<p class="TextoThumbs">Better Know</p>
+							</div>
+							<div class="col-2">
+								<img src="img/thumbs/cash-corner.jpg" class="Thumbs">
+								<p class="TextoThumbs">Cash corner</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="PiePagina">
+							<br>
+							<p>
+							5by5 is a podcast network for geeks, designers, developers, gamers, entrepreneurs, and people like you, with shows hosted by people<br> including Dan Benjamin, Merlin Mann, Horace Dediu, and Jeffrey Zeldman. Read more...	
+							</p>
+							<div>
+								<ul>
+									<li>About</li>
+									<li>Shows</li>
+									<li>Subscribe</li>
+									<li>iTunes</li>
+									<li>Schedule</li>
+									<li>Contact</li>
+									<li>Donate</li>
+									<li>Advertise</li>
+									<li>Newsletter</li>
+								</ul>
+							</div>
+							<p class="Copyright">
+							Copyright © 2009–2015 by Dan Benjamin and 5by5 Productions LLC in Austin, Texas
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

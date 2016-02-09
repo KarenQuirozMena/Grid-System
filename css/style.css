@@ -1,1 +1,75 @@
-/* Inserta tu codigo aqui */
+.encabezado{
+	background-color:black;
+	color: white;
+	height: 125px;
+}
+.logo{
+	width: 65%;
+	height: auto;
+	margin-top: 15%;
+	position: 
+}
+li{
+	display: inline-block;
+	margin: 8% -6% 5% 8%; 
+}
+.Link{
+	background-color: #D8D8D8;
+	height: 25px;
+}
+.TextoLink{
+	color:black;
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+}
+.TextoLinkBlue{
+	color: blue;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+.LatesEpisodes{
+	background-color: #D8D8D8;
+	height: 250px;
+	border-bottom: 3px solid grey;
+}
+.ImgLE{
+	width: 100%;
+	height: auto;
+	margin: 1%;
+	border: 3px solid white;
+}
+.TImgLE{
+	color: #084B8A;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+}
+.Thumbs{
+	width: 100%;
+	height: auto;
+	margin: 15% 10% 2% 10%;
+	padding: 1px;
+	border: 2px solid grey;
+}
+.TextoThumbs{
+	color: #084B8A;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+
+
+.PiePagina{
+	background-color:grey;
+	color: white;
+	height: 230px;
+}
+.Copyright{
+	text-align: center;
+	font-size: 10px;
+	color: #A4A4A4;
+}
